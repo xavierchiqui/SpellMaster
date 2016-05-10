@@ -1,0 +1,56 @@
+Archtypes:
+    Bard:
+        Combat Caster
+            Does not require an empty hand to cast magic
+            #TODO no changes
+        Dervish
+            Equipment costs are doubled.
+            Each Verbal purchased gives double the uses.
+            #TODO overide spell cost and frequency
+        Legend:
+            Each Extension purchased gives double the uses.
+            Swift may not be purchased or used.
+            #TODO overide spell frequency, set swift visible=false
+    Druid:
+        Avatar of Nature:
+            All the casters Enchantments of level 4 and below are now range Self instead of their previous range. Does not apply to Golem.
+            #TODO override spell range
+        Ranger:
+            he cost of all available Equipment is reduced to zero points.
+            May use bows so long as a shield is not carried.
+            The cost of all Enchantments is doubled.
+            #TODO override spell cost
+        Summoner:
+            Each Enchantment purchased gives double the uses.
+            May not purchase Verbals with a range other than Touch or Self.
+            May not purchase equipment beyond 2nd level.
+            #TODO override spell frequency, set visible=false
+    Healer:
+        Necromancer:
+            All magic purchased in the Death School becomes Charge x3.
+            You may have a combined total of five active Greater Undead Minion and Undead Minion Enchantments.
+	        You may not purchase any Enchantments from the Protection School.
+	        #TODO override spell frequency, spell limit, set visible=false
+        Priest:
+            Meta-magic may only be used on Spirit magics.
+            All Meta-Magics purchased become 1/Life Charge x3.
+            Heal costs zero points.
+            #TODO override spell frequency, spell cost, color code school?
+        Warder:
+            Each Enchantment purchased in the Protection School gives double the uses.
+            Player may not purchase any magic from the Death, Command, or Subdual Schools.
+            #TODO override spell freq, visibility
+    Wizard:
+        Battlemage:
+            Use of Ambulant becomes unlimited.
+            May not purchase Enchantments or Magic Balls.
+            #TODO override spellfreq, visibility
+        Evoker:
+            Verbals purchased may only be of range Touch or Self.
+            Elemental Barrage becomes Charge x10.
+            Elemental Barrage must still be purchased.
+            #TODO override visibility, frequency
+        Warlock:
+            Each Verbal purchased in the Death and Flame Schools gives double the uses.
+            Player may not purchase Verbals from any School other than the Death and Flame Schools.
+            #TODO override frequency, visibility
